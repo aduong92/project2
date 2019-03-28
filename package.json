@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "engines": {
     "node": "10.15.3",
-  "npm": "6.4.1"
+    "npm": "6.4.1"
   },
   "contributors": [
     {
@@ -41,8 +41,7 @@
     "watch": "./node_modules/.bin/webpack --watch",
     "test": "./node_modules/.bin/jest",
     "lint": "tslint --project .",
-    "generate-test-data": "node_modules/.bin/ts-node --project tests/ tests/generate-test-data.ts",
-    "start": "node ./dist/jsQR.js"
+    "generate-test-data": "node_modules/.bin/ts-node --project tests/ tests/generate-test-data.ts"
   },
   "jest": {
     "testRegex": ".*test.ts",
